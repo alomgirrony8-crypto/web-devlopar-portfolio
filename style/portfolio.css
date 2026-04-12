@@ -24,9 +24,19 @@ font-weight: bold;
 font-size: 20px;
 color: white;
 padding: 18px 35px;
-
-border-radius: 5;
+border: none;
+border-radius: 5px;
 border-color: rgb(220, 245, 227);
+}
+
+
+
+/* header */
+.header{
+background-image: url(../images/developer.png), url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position:top left,bottom right ;
+
 }
 
 /* nav style */
@@ -55,5 +65,40 @@ align-items: center;
 nav li a{
   text-decoration: none;
   font-size: 20px;
+
+}
+
+/* banner style */
+.banner{
+display: flex;
+margin: 0 35px 0 230px;
+
+}
+.banner-content{
+  max-width: 580px;
+  justify-content: space-between;
+}
+
+
+
+.banner-greeting{
+  font-size: 45px;
+  font-weight: 600;
+
+
+}
+.banner-title{
+font-weight: bold;
+font-size: 85px;
+
+}
+.banner-description{
+font-size:18 px;
+
+}
+.banner-profile{
+width: 580px;
+
+
 
 }
