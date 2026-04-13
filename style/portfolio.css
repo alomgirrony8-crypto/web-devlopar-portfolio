@@ -5,11 +5,19 @@
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 100px;
 }
 
 
 /* shard style */
+
+.secondary-background{
+background-color: #FFF8F3;
+
+
+
+
+}
 .text-primary{
 color: #FD6E0A;
 
@@ -28,7 +36,22 @@ border: none;
 border-radius: 5px;
 border-color: rgb(220, 245, 227);
 }
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #818181;
 
+
+
+}
+.section-description{
+font-size: 18px;
+color: #757575;
+
+
+
+
+}
 
 
 /* header */
@@ -99,6 +122,35 @@ font-size:18 px;
 .banner-profile{
 width: 580px;
 
+}
 
+/* main style */
+main{
+max-width: 1140px;
+margin: 0 auto ;
+
+}
+
+
+
+/* about style */
+
+.about{
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+margin-top:130px ;
+
+
+}
+
+.about-items{
+display: flex;
+justify-content: space-around;
+
+
+}
+.item-description{
+font-weight: 600;
 
 }
