@@ -177,9 +177,41 @@ font-weight: 600;
 }
 .skill{
 padding:30px;
-box-shadow: 0px 6px 50px 0px rgba(0,0,00.06);
+box-shadow: 0px 6px 50px 0px rgba(0,0,00.6);
 border-radius: 5px;
 
+}
+
+/* resume section style */
+
+.resume-container{
+display: flex;
+gap: 25px;
+
+
+}
+.experience-sub-title{
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20;
+
+
+
+}
+
+.experience-description, .experience-sub-title{
+color: #757575;
+
+
+
+}
+.resume hr{
+margin:30px 5px ;
+
+
+}
+.resume-downlod-cv{
+margin-top: 50px;
 
 
 }
