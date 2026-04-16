@@ -113,13 +113,10 @@ margin: 0 35px 0 230px;
 .banner-greeting{
   font-size: 45px;
   font-weight: 600;
-
-
 }
 .banner-title{
 font-weight: bold;
 font-size: 85px;
-
 }
 .banner-description{
 font-size:18 px;
@@ -127,22 +124,16 @@ font-size:18 px;
 }
 .banner-profile{
 width: 580px;
-
 }
 
 /* main style */
 main{
 max-width: 1140px;
 margin: 0 auto ;
-
 }
 main-section{
 margin-top: 130px;
 margin-bottom: 130px;
-
-
-
-
 }
 
 
@@ -153,33 +144,25 @@ margin-bottom: 130px;
 border-radius: 10px;
 padding: 130px 150px;
 text-align: center;
-
-
-
 }
 
 .about-items{
 display: flex;
 justify-content: space-around;
-
-
 }
 .item-description{
 font-weight: 600;
-
 }
 
 /* skills section  */
 .skills-container{
   display: flex;
   grid-auto-flow: 24px;
-
 }
 .skill{
 padding:30px;
 box-shadow: 0px 6px 50px 0px rgba(0,0,00.6);
 border-radius: 5px;
-
 }
 
 /* resume section style */
@@ -187,33 +170,21 @@ border-radius: 5px;
 .resume-container{
 display: flex;
 gap: 25px;
-
-
 }
 .experience-sub-title{
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 20;
-
-
-
 }
 
 .experience-description, .experience-sub-title{
 color: #757575;
-
-
-
 }
 .resume hr{
 margin:30px 5px ;
-
-
 }
 .resume-downlod-cv{
 margin-top: 50px;
-
-
 }
 
 /* footer styles */
@@ -238,8 +209,4 @@ width: 100%;
 padding: 10px 20px ;
 margin-bottom: 20px;
 border: none;
-
-
-
-
 }
